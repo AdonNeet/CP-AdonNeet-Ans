@@ -15,11 +15,6 @@ using namespace std;
 
 int main()
 {
-    #ifndef ONLINE_JUDGE
-    freopen("../input.in", "r", stdin);
-    freopen("../output.out", "w", stdout);
-    #endif
-
     fast_cin();
     string s, t, nd;
     cin >> s >> t;
